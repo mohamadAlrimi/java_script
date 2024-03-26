@@ -83,69 +83,83 @@ document.write("hello");
 // console.log(parseInt(d));
 // console.log((Math.floor(b) / Math.ceil(d)).toFixed(2));
 // console.log(Math.ceil(Math.floor(b) / Math.ceil(d)));
-let a = "Elzero Web School";
-console.log(a.toUpperCase().charAt(2) + a.slice(3, 6)); //Zero
-console.log(a.toUpperCase().substring(13, 14).repeat(8)); //HHHHHHHH
-console.log(a.split(" ", 1));
-console.log(a.substr(0, 7) + a.substr(length - 7)); // Elzero School
-console.log(
-  a.charAt(0).toLowerCase() +
-    a.substring(1, a.length - 1).toUpperCase() +
-    a.charAt(a.length - 1).toLowerCase()
-); // eLZERO WBE SCHOOl
-let price = 0;
-console.log(` the price is ${price || 200}  `);
-console.log(`the price is ${price ?? 200}`);
-let s = 10;
-s < 10
-  ? console.log(10)
-  : s >= 10 && s <= 40
-  ? console.log("10 to 40")
-  : s > 40
-  ? console.log(" > 40")
-  : console.log(unknown); //10 to 20
-let st = "Elzero Web School";
-if (st.length * 2 == 354) {
-  console.log("good");
-} else if (st.charAt(st.indexOf("W")).toLowerCase() === "m") {
-  console.log("gooooood");
-} else if (typeof st.length === "number1") {
-  console.log("wrong");
-} else if (st.substr(0, 6).repeat(2) === "ElzerElzero") {
-  console.log("amazing");
-} else if (typeof st.length !== "string") {
-  console.log("wowww");
-}
-let jop = "Support";
-let salary = 0;
-switch (jop) {
-  case "manager":
-    salary = 8000;
-    console.log(`the salary is ${salary}`);
-    break;
-  case "IT":
-  case "Support":
-    salary = 6000;
-    console.log(`the salary is ${salary}`);
-    break;
-  case "Developer ":
-    salary = 7000;
-    console.log(`the salary is ${salary}`);
-    break;
-  default:
-    console.log("no one");
-}
-let holoday = 2;
-let money = 0;
-if (holoday == 0) {
-  money = 5000;
-  console.log(`my money is${money}`);
-} else if (holoday == 1 ||  holoday == 2) {
-  money = 3000;
-  console.log(`my money is ${money}`);
-} else if (holoday == 3) {
-  money = 2000;
-  console.log(`my money is${money}`);
-} else {
-  console.log(`my money is finshed`);
-}
+// let a = "Elzero Web School";
+// console.log(a.toUpperCase().charAt(2) + a.slice(3, 6)); //Zero
+// console.log(a.toUpperCase().substring(13, 14).repeat(8)); //HHHHHHHH
+// console.log(a.split(" ", 1));
+// console.log(a.substr(0, 7) + a.substr(length - 7)); // Elzero School
+// console.log(
+//   a.charAt(0).toLowerCase() +
+//     a.substring(1, a.length - 1).toUpperCase() +
+//     a.charAt(a.length - 1).toLowerCase()
+// ); // eLZERO WBE SCHOOl
+// let price = 0;
+// console.log(` the price is ${price || 200}  `);
+// console.log(`the price is ${price ?? 200}`);
+// let s = 10;
+// s < 10
+//   ? console.log(10)
+//   : s >= 10 && s <= 40
+//   ? console.log("10 to 40")
+//   : s > 40
+//   ? console.log(" > 40")
+//   : console.log(unknown); //10 to 20
+// let st = "Elzero Web School";
+// if (st.length * 2 == 354) {
+//   console.log("good");
+// } else if (st.charAt(st.indexOf("W")).toLowerCase() === "m") {
+//   console.log("gooooood");
+// } else if (typeof st.length === "number1") {
+//   console.log("wrong");
+// } else if (st.substr(0, 6).repeat(2) === "ElzerElzero") {
+//   console.log("amazing");
+// } else if (typeof st.length !== "string") {
+//   console.log("wowww");
+// }
+// let jop = "Support";
+// let salary = 0;
+// switch (jop) {
+//   case "manager":
+//     salary = 8000;
+//     console.log(`the salary is ${salary}`);
+//     break;
+//   case "IT":
+//   case "Support":
+//     salary = 6000;
+//     console.log(`the salary is ${salary}`);
+//     break;
+//   case "Developer ":
+//     salary = 7000;
+//     console.log(`the salary is ${salary}`);
+//     break;
+//   default:
+//     console.log("no one");
+// }
+// let holoday = 2;
+// let money = 0;
+// if (holoday == 0) {
+//   money = 5000;
+//   console.log(`my money is${money}`);
+// } else if (holoday == 1 ||  holoday == 2) {
+//   money = 3000;
+//   console.log(`my money is ${money}`);
+// } else if (holoday == 3) {
+//   money = 2000;
+//   console.log(`my money is${money}`);
+// } else {
+//   console.log(`my money is finshed`);
+// }
+let zero = 0;
+let cont = 3;
+let my = ["ahmed", "mazero", "elham", "osama", "jamal", "ameer"];
+// console.log(my.reverse().slice(cont / cont , my.length  - 1));
+// console.log(my.reverse().slice(my.length/cont));
+// let first = my.shift(length / cont);
+// let last = my.pop(length / cont);
+// console.log(my );
+// let first1 = my.shift(length - cont);
+// console.log(my );
+// let last2 = my.pop(  cont);
+// console.log(my );
+console.log(my.slice(cont / cont , cont).reverse());
+console.log(`${my[cont / cont][ ]}` ); 
