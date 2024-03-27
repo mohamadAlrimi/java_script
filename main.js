@@ -149,9 +149,9 @@ document.write("hello");
 // } else {
 //   console.log(`my money is finshed`);
 // }
-let zero = 0;
-let cont = 3;
-let my = ["ahmed", "mazero", "elham", "osama", "jamal", "ameer"];
+// let zero = 0;
+// let cont = 3;
+// let my = ["ahmed", "mazero", "elham", "osama", "jamal", "ameer"];
 // console.log(my.reverse().slice(cont / cont , my.length  - 1));
 // console.log(my.reverse().slice(my.length/cont));
 // let first = my.shift(length / cont);
@@ -161,5 +161,16 @@ let my = ["ahmed", "mazero", "elham", "osama", "jamal", "ameer"];
 // console.log(my );
 // let last2 = my.pop(  cont);
 // console.log(my );
-console.log(my.slice(cont / cont , cont).reverse());
-console.log(`${my[cont / cont][ ]}` ); 
+// console.log(my.slice(cont / cont , cont).reverse());
+// console.log(`${my[cont / cont][5 ]}` ); 
+let products=["keybord", "mouse",10, 20,"pen","pad",30, 40,"monitor"];
+let color =["red","black","green"];
+for( let j = 0; j < products.length; j++){
+    if(typeof products[j]==="number")
+    continue;
+    console.log(products[j]);
+    for( let i=0; i<color.length;i++){
+        console.log(`-${color[i]}`);
+    }
+
+}
