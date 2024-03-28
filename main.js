@@ -162,15 +162,24 @@ document.write("hello");
 // let last2 = my.pop(  cont);
 // console.log(my );
 // console.log(my.slice(cont / cont , cont).reverse());
-// console.log(`${my[cont / cont][5 ]}` ); 
-let products=["keybord", "mouse",10, 20,"pen","pad",30, 40,"monitor"];
-let color =["red","black","green"];
-for( let j = 0; j < products.length; j++){
-    if(typeof products[j]==="number")
-    continue;
-    console.log(products[j]);
-    for( let i=0; i<color.length;i++){
-        console.log(`-${color[i]}`);
-    }
-
+// console.log(`${my[cont / cont][5 ]}` );
+let products = ["keybord", "mouse", "pen", "pad", "monitor"];
+let color = ["red", "black", "green"];
+let showcount = 5;
+document.write(`<h3>Show ${showcount} products</h3>`);
+for (let i = 0; i < showcount; i++) {
+  document.write(`<div>`);
+  document.write(`<h3>[${i + 1} ${products[i]}]</h3>`);
+  for (let j = 0; j < color.length; j++) {
+    document.write(`<p>${color[j]}</p>`);
+  }
+  document.write(`${color.join("|")}`);
+  document.write(`</div>`);
 }
+// mainloop: for (let j = 0; j < products.length; j++) {
+//   if (typeof products[j] === "number") continue;
+//   console.log(products[j]);
+//   nestedloop: for (let i = 0; i < color.length; i++) {
+//     console.log(`-${color[i]}`);
+//   }
+// }
