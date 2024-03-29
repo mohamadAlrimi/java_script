@@ -198,12 +198,27 @@ document.write("hello");
 //   return `Hello ${useName} your age is ${Age}`;
 // }
 // console.log(sayHello("ali" ,50));
-function calc(...numbers){
-  // console.log(Array.isArray(numbers));
-  let result = 0;
-  for(let i=0;i <numbers.length;i++){
-    result+=numbers[i];
+// function calc(...numbers){
+//   // console.log(Array.isArray(numbers));
+//   let result = 0;
+//   for(let i=0;i <numbers.length;i++){
+//     result+=numbers[i];
+//   }
+//   return`Final result is ${result}`
+// }
+// console.log(calc(1,4,3,5,5,6,8,43,2,7,56,34,328,789,0));
+function shoInfo(ur = "Un", ag = "Un", rt = 0, show = "Yes", ...sk) {
+  document.write(`<div>`);
+  document.write(`<h2>Hello:${ur}</h2>`);
+  document.write(`<p>Age:${ag}</p>`);
+  document.write(`<p>HourRate:$${rt}</p>`);
+  if (show === "Yes") {
+    if (sk.length > 0) {
+      document.write(`<p>Skills:${sk.join("|")}</p>`);
+    } else document.write(`<p>Skills:no skills</p>`);
+  } else {
+    document.write(`<p>skills is hidden</p>`);
   }
-  return`Final result is ${result}`
+  document.write(`</div>`);
 }
-console.log(calc(1,4,3,5,5,6,8,43,2,7,56,34,328,789,0));
+shoInfo("muhammed", 24, 20, "2", "html", "css");
