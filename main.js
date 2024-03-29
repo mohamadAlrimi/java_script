@@ -183,13 +183,18 @@ document.write("hello");
 //     console.log(`-${color[i]}`);
 //   }
 // }
+// function sayHello(useName, Age) {
+//   if (Age < 18) {
+//     console.log("App is not sitabul for you");
+//   } else {
+//     console.log(`hello ${useName} your age is ${Age}`);
+//   }
+// }
+// sayHello("muhammed", 34);
+// sayHello("ali", 14);
+// sayHello("hani", 18);
 function sayHello(useName, Age) {
-  if (Age < 18) {
-    console.log("App is not sitabul for you");
-  } else {
-    console.log(`hello ${useName} your age is ${Age}`);
-  }
+  if (Age === "undefined") Age = Unknown;
+  return `Hello ${useName} your age is ${Age}`;
 }
-sayHello("muhammed", 34);
-sayHello("ali", 14);
-sayHello("hani", 18);
+console.log(sayHello("ali" ,50));
