@@ -193,8 +193,17 @@ document.write("hello");
 // sayHello("muhammed", 34);
 // sayHello("ali", 14);
 // sayHello("hani", 18);
-function sayHello(useName, Age) {
-  if (Age === "undefined") Age = Unknown;
-  return `Hello ${useName} your age is ${Age}`;
+// function sayHello(useName, Age) {
+//   if (Age === "undefined") Age = Unknown;
+//   return `Hello ${useName} your age is ${Age}`;
+// }
+// console.log(sayHello("ali" ,50));
+function calc(...numbers){
+  // console.log(Array.isArray(numbers));
+  let result = 0;
+  for(let i=0;i <numbers.length;i++){
+    result+=numbers[i];
+  }
+  return`Final result is ${result}`
 }
-console.log(sayHello("ali" ,50));
+console.log(calc(1,4,3,5,5,6,8,43,2,7,56,34,328,789,0));
