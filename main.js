@@ -1,4 +1,4 @@
-document.write("hello");
+// document.write("hello");
 // var user ="muhammed";
 // console.log(user);
 // console.log(hello);
@@ -207,18 +207,43 @@ document.write("hello");
 //   return`Final result is ${result}`
 // }
 // console.log(calc(1,4,3,5,5,6,8,43,2,7,56,34,328,789,0));
-function shoInfo(ur = "Un", ag = "Un", rt = 0, show = "Yes", ...sk) {
-  document.write(`<div>`);
-  document.write(`<h2>Hello:${ur}</h2>`);
-  document.write(`<p>Age:${ag}</p>`);
-  document.write(`<p>HourRate:$${rt}</p>`);
-  if (show === "Yes") {
-    if (sk.length > 0) {
-      document.write(`<p>Skills:${sk.join("|")}</p>`);
-    } else document.write(`<p>Skills:no skills</p>`);
-  } else {
-    document.write(`<p>skills is hidden</p>`);
+// function shoInfo(ur = "Un", ag = "Un", rt = 0, show = "Yes", ...sk) {
+//   document.write(`<div>`);
+//   document.write(`<h2>Hello:${ur}</h2>`);
+//   document.write(`<p>Age:${ag}</p>`);
+//   document.write(`<p>HourRate:$${rt}</p>`);
+//   if (show === "Yes") {
+//     if (sk.length > 0) {
+//       document.write(`<p>Skills:${sk.join("|")}</p>`);
+//     } else document.write(`<p>Skills:no skills</p>`);
+//   } else {
+//     document.write(`<p>skills is hidden</p>`);
+//   }
+//   document.write(`</div>`);
+// }
+// shoInfo("muhammed", 24, 20, "2", "html", "css");
+let i = 0;
+
+function showDetails(a, b, c) {
+  let ar = [a, b, c];
+  for (; i < 3; i++) {
+    if (typeof ar[i] === "string") {
+      first = ar[i];
+      // document.write(`:${ar[i]}`);
+    } else if (typeof ar[i] === "number") 
+    // document.write(`age:${ar[i]}`);
+    second = ar[i];
+    else if (typeof ar[i] === "boolean") {
+      if (ar[i] === true) {
+        // document.write("yes");
+        third = "averable";
+      } else 
+      third="not avarable";
+      // document.write("no");
+    }
   }
-  document.write(`</div>`);
 }
-shoInfo("muhammed", 24, 20, "2", "html", "css");
+
+showDetails("ali", 24, true);
+// showDetails("muhammed\n", false, 45);
+document.write(` Hello:${first}  your  age is ${second}  ${third}`);
