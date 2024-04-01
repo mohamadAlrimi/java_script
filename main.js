@@ -222,28 +222,32 @@
 //   document.write(`</div>`);
 // }
 // shoInfo("muhammed", 24, 20, "2", "html", "css");
-let i = 0;
+// let i = 0;
 
-function showDetails(a, b, c) {
-  let ar = [a, b, c];
-  for (; i < 3; i++) {
-    if (typeof ar[i] === "string") {
-      first = ar[i];
-      // document.write(`:${ar[i]}`);
-    } else if (typeof ar[i] === "number") 
-    // document.write(`age:${ar[i]}`);
-    second = ar[i];
-    else if (typeof ar[i] === "boolean") {
-      if (ar[i] === true) {
-        // document.write("yes");
-        third = "averable";
-      } else 
-      third="not avarable";
-      // document.write("no");
-    }
-  }
+// function showDetails(a, b, c) {
+//   let ar = [a, b, c];
+//   for (; i < 3; i++) {
+//     if (typeof ar[i] === "string") {
+//       first = ar[i];
+//       // document.write(`:${ar[i]}`);
+//     } else if (typeof ar[i] === "number") 
+//     // document.write(`age:${ar[i]}`);
+//     second = ar[i];
+//     else if (typeof ar[i] === "boolean") {
+//       if (ar[i] === true) {
+//         // document.write("yes");
+//         third = "averable";
+//       } else 
+//       third="not avarable";
+//       // document.write("no");
+//     }
+//   }
+// }
+
+// showDetails("ali", 24, true);
+// // showDetails("muhammed\n", false, 45);
+// document.write(` Hello:${first}  your  age is ${second}  ${third}`);
+function calc( number1 ,number2){
+  return number1 + number2 ;
 }
-
-showDetails("ali", 24, true);
-// showDetails("muhammed\n", false, 45);
-document.write(` Hello:${first}  your  age is ${second}  ${third}`);
+console.log(calc(12 , 34 ));
