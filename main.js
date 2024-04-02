@@ -230,14 +230,14 @@
 //     if (typeof ar[i] === "string") {
 //       first = ar[i];
 //       // document.write(`:${ar[i]}`);
-//     } else if (typeof ar[i] === "number") 
+//     } else if (typeof ar[i] === "number")
 //     // document.write(`age:${ar[i]}`);
 //     second = ar[i];
 //     else if (typeof ar[i] === "boolean") {
 //       if (ar[i] === true) {
 //         // document.write("yes");
 //         third = "averable";
-//       } else 
+//       } else
 //       third="not avarable";
 //       // document.write("no");
 //     }
@@ -251,7 +251,10 @@
 //   return number1 + number2 ;
 // }
 // console.log(calc(12 , 34 ));
-let calcoletr = function( number1, number2){
-return number1 + number2;
-}
-console.log(calcoletr(12,55));
+let calcoletr = function (number1, number2) {
+  return number1 + number2;
+};
+console.log(calcoletr(12, 55));
+document.getElementById("show").onclick = function () {
+  console.log("show");
+};
