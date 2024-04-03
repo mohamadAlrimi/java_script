@@ -251,10 +251,10 @@
 //   return number1 + number2 ;
 // }
 // console.log(calc(12 , 34 ));
-let calcoletr = function (number1, number2) {
+let calcoletr = function (number1, number2) { 
   return number1 + number2;
 };
 console.log(calcoletr(12, 55));
-document.getElementById("show").onclick = function () {
+document.getElementById("Show").onclick = function () {
   console.log("show");
 };
