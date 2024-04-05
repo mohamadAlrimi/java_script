@@ -244,13 +244,13 @@
 //   }
 // }
 
-// showDetails("ali", 24, true);
-// // showDetails("muhammed\n", false, 45);
-// document.write(` Hello:${first}  your  age is ${second}  ${third}`);
-// function calc( number1 ,number2){
-//   return number1 + number2 ;
-// }
-// console.log(calc(12 , 34 ));
+showDetails("ali", 24, true);
+// showDetails("muhammed\n", false, 45);
+document.write(` Hello:${first}  your  age is ${second}  ${third}`);
+function calc( number1 ,number2){
+  return number1 + number2 ;
+}
+console.log(calc(12 , 34 ));
 let calcoletr = function (number1, number2) { 
   return number1 + number2;
 };
