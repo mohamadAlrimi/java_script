@@ -195,7 +195,7 @@ sayHello("ali", 14);
 sayHello("hani", 18);
 function sayHello(useName, Age) {
   if (Age === "undefined") Age = Unknown;
-  return `Hello ${useName} your age is ${Age}`;
+  // return `Hello ${useName} your age is ${Age}`;
 }
 console.log(sayHello("ali" ,50));
 function calc(...numbers){
