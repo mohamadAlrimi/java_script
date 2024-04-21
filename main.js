@@ -190,11 +190,11 @@
 //     console.log(`hello ${useName} your age is ${Age}`);
 //   }
 // }
-sayHello("muhammed", 34);
-sayHello("ali", 14);
-sayHello("hani", 18);
-function sayHello(useName, Age) {
-  if (Age === "undefined") Age = Unknown;
+// sayHello("muhammed", 34);
+// sayHello("ali", 14);
+// sayHello("hani", 18);
+// function sayHello(useName, Age) {
+//   if (Age === "undefined") Age = Unknown;
   // return `Hello ${useName} your age is ${Age}`;
 }
 // console.log(sayHello("ali" ,50));
