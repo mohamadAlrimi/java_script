@@ -258,10 +258,12 @@
 // document.getElementById("Show").onclick = function () {
 //   console.log("show");
 // };
-function sayHello(userName){
-console.log(`hello  ${userName} in my web:)`);
+function sayHello(userName ,age ){
+  if(age == 18)
+  console.log(`this web is not for you`);
+console.log(`hello  ${userName} in my web your age is ${age}:)`);
 
 }
-sayHello("ali");
-sayHello("muhammed");
-sayHello("kaled");
+sayHello("ali",13);
+sayHello("muhammed",14);
+sayHello("kaled",18);
