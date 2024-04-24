@@ -258,12 +258,21 @@
 // document.getElementById("Show").onclick = function () {
 //   console.log("show");
 // };
-function sayHello(userName ,age ){
-  if(age == 18)
-  console.log(`this web is not for you`);
-console.log(`hello  ${userName} in my web your age is ${age}:)`);
+// function sayHello(userName ,age ){
+//   if(age == 18)
+//   console.log(`this web is not for you`);
+// console.log(`hello  ${userName} in my web your age is ${age}:)`);
 
-}
-sayHello("ali",13);
-sayHello("muhammed",14);
-sayHello("kaled",18);
+// }
+// sayHello("ali",13);
+// sayHello("muhammed",14);
+// sayHello("kaled",18);
+function generated(start , end){
+  for(let i =start ; i <= end ; i++){ 
+    if(i===15)
+    return "done" ;
+    console.log(i);}
+  
+    }
+  
+generated(10,20); 
