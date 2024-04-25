@@ -267,6 +267,7 @@
 // sayHello("ali",13);
 // sayHello("muhammed",14);
 // sayHello("kaled",18);
+// it for boosh
 function generated(start , end){
   for(let i =start ; i <= end ; i++){ 
     if(i===15)
