@@ -268,12 +268,17 @@
 // sayHello("muhammed",14);
 // sayHello("kaled",18);
 // it for boosh
-function generated(start , end){
-  for(let i =start ; i <= end ; i++){ 
-    if(i===15)
-    return "done" ;
-    console.log(i);}
+// function generated(start , end){
+//   for(let i =start ; i <= end ; i++){ 
+//     if(i===15)
+//     return "done" ;
+//     console.log(i);}
   
-    }
+//     }
   
-generated(10,20); 
+// generated(10,20); 
+function sayHello (userName , age ="unknown"){
+  console.log(`hello ${userName} your age is ${age}`);
+}
+sayHello("muhammed",23);
+sayHello("muhammed");
