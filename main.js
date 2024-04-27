@@ -277,8 +277,17 @@
 //     }
   
 // generated(10,20); 
-function sayHello (userName , age ="unknown"){
-  console.log(`hello ${userName} your age is ${age}`);
-}
-sayHello("muhammed",23);
-sayHello("muhammed");
+// function sayHello (userName , age ="unknown"){
+//   console.log(`hello ${userName} your age is ${age}`);
+// }
+// sayHello("muhammed",23);
+// sayHello("muhammed");
+
+function calc(...numbers){
+  let result = 0;
+  for(let i = 0 ; i < numbers.length ; i++){
+result += numbers[i];
+
+  }
+  return`the final result is ${result}`;    }
+  console.log(calc(10 ,20 ,30 ));
