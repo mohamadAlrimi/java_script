@@ -329,5 +329,8 @@
 // }
 // showDatel("ali",23,"yes");
 
-let namse =  (...nam) => `string ${nam.join("],[")} =>done!`;
-console.log(namse("[ali","muhmmed","yaser]" ));
+// let namse =  (...nam) => `string ${nam.join("],[")} =>done!`;
+// console.log(namse("[ali","muhmmed","yaser]" ));
+let myNumber =[20,50,10,60];
+let calc =(one ,two ,...nums) =>`${one + two + nums[0]} `;
+console.log(calc(10,myNumber[3],myNumber[2]));   //80
