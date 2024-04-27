@@ -200,7 +200,7 @@
 // console.log(sayHello("ali" ,50));
 // function calc(...numbers){
   // console.log(Array.isArray(numbers));
-  let result = 0;
+  // let result = 0;
   // for(let i=0;i <numbers.length;i++){
   //   result+=numbers[i];
   // }
@@ -283,11 +283,31 @@
 // sayHello("muhammed",23);
 // sayHello("muhammed");
 
-function calc(...numbers){
-  let result = 0;
-  for(let i = 0 ; i < numbers.length ; i++){
-result += numbers[i];
+// function calc(...numbers){
+//   let result = 0;
+//   for(let i = 0 ; i < numbers.length ; i++){
+// result += numbers[i];
 
+//   }
+//   return`the final result is ${result}`;    }
+//   console.log(calc(10 ,20 ,30 ));
+function info(u ="un",ag="un",rt = 0,sh="yes",...sk){
+  document.write(`<div>`);
+  document.write(`<h2>Welcome,${u}</h2>`);
+  document.write(`<p>Age:${ag}</p>`);
+  // document.write(`<p>hour rate:${rt}</p>`);
+  document.write(`<p>hour rate:$${rt}</p>`);
+
+  if(sh==="yes"){
+    if(sh.length > 0){
+      document.write(`<p>the skills are: ${sk.join("|")}</p>`);
+    }
+  else
+  document.write(`<p> there are no skills</p>`);
   }
-  return`the final result is ${result}`;    }
-  console.log(calc(10 ,20 ,30 ));
+  else
+  document.write(`<p>the skills are hiddin </p>`);
+
+  document.write(`</div>`);
+}
+info("MUHAMMED ELRIMI",23,12,"yes","html","css");
