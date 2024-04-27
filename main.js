@@ -291,23 +291,43 @@
 //   }
 //   return`the final result is ${result}`;    }
 //   console.log(calc(10 ,20 ,30 ));
-function info(u ="un",ag="un",rt = 0,sh="yes",...sk){
-  document.write(`<div>`);
-  document.write(`<h2>Welcome,${u}</h2>`);
-  document.write(`<p>Age:${ag}</p>`);
-  // document.write(`<p>hour rate:${rt}</p>`);
-  document.write(`<p>hour rate:$${rt}</p>`);
+// function info(u ="un",ag="un",rt = 0,sh="yes",...sk){
+//   document.write(`<div>`);
+//   document.write(`<h2>Welcome,${u}</h2>`);
+//   document.write(`<p>Age:${ag}</p>`);
+//   // document.write(`<p>hour rate:${rt}</p>`);
+//   document.write(`<p>hour rate:$${rt}</p>`);
 
-  if(sh==="yes"){
-    if(sh.length > 0){
-      document.write(`<p>the skills are: ${sk.join("|")}</p>`);
-    }
-  else
-  document.write(`<p> there are no skills</p>`);
-  }
-  else
-  document.write(`<p>the skills are hiddin </p>`);
+//   if(sh==="yes"){
+//     if(sh.length > 0){
+//       document.write(`<p>the skills are: ${sk.join("|")}</p>`);
+//     }
+//   else
+//   document.write(`<p> there are no skills</p>`);
+//   }
+//   else
+//   document.write(`<p>the skills are hiddin </p>`);
 
-  document.write(`</div>`);
-}
-info("MUHAMMED ELRIMI",23,12,"yes","html","css");
+//   document.write(`</div>`);
+// }
+// info("MUHAMMED ELRIMI",23,12,"yes","html","css");
+// function showDatel(...info){
+//   for (let i = 0 ; i < info.length;i++){
+//     if(typeof info[i]=== "String"){
+//       let name = info[i];
+//     }
+//     else if(typeof info[i]=== "number"){
+//       let age =info[i];
+//     }
+//     else if (typeof info[i] === "boolean") {
+//       if(Boolean === "yes")
+//      let sta = "can";
+//     else 
+//     }
+// return`hello ${name} your ${age} ${sta} `;
+//   }
+// }
+// showDatel("ali",23,"yes");
+
+let namse =  (...nam) => `string ${nam.join("],[")} =>done!`;
+console.log(namse("[ali","muhmmed","yaser]" ));
