@@ -345,8 +345,19 @@
 //   return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
 // }).join("");
 // console.log(sw);
-let frendis = ["ahmmed", "halil", "samah", "amjed"];
-let newfrindes = frendis.filter(function (ele) {
-  return ele.startsWith("a");
-});
-console.log(newfrindes);
+// let frendis = ["ahmmed", "halil", "samah", "amjed"];
+// let newfrindes = frendis.filter(function (ele) {
+//   return ele.startsWith("a");
+// });
+// console.log(newfrindes);
+let mix = "A13BS2X";
+let mixedcontenrt = mix
+  .split("")
+  .filter(function (ele) {
+    return !isNaN(parseInt(ele));
+  })
+  .map(function (ele) {
+    return ele * ele;
+  })
+  .join("");
+console.log(mixedcontenrt);
