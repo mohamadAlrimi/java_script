@@ -334,9 +334,19 @@
 // let myNumber =[20,50,10,60];
 // let calc =(one ,two ,...nums) =>`${one + two + nums[0]} `;
 // console.log(calc(10,myNumber[3],myNumber[2]));   //80
-let mynumb = [1, 2, 3, 4, 5, 6];
-let newnumb = [];
-for (let i = 0; i < mynumb.length; i++) {
-  newnumb.push(mynumb[i] + mynumb[i]);
-}
-console.log(newnumb);
+// let mynumb = [1, 2, 3, 4, 5, 6];
+// let newnumb = [];
+// for (let i = 0; i < mynumb.length; i++) {
+//   newnumb.push(mynumb[i] + mynumb[i]);
+// }
+// console.log(newnumb);
+// let swappinCase = "elZERo";
+// let sw = swappinCase.split("").map(function (ele) {
+//   return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
+// }).join("");
+// console.log(sw);
+let frendis = ["ahmmed", "halil", "samah", "amjed"];
+let newfrindes = frendis.filter(function (ele) {
+  return ele.startsWith("a");
+});
+console.log(newfrindes);
