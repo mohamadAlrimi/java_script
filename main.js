@@ -195,16 +195,16 @@
 // sayHello("hani", 18);
 // function sayHello(useName, Age) {
 //   if (Age === "undefined") Age = Unknown;
-  // return `Hello ${useName} your age is ${Age}`;
+// return `Hello ${useName} your age is ${Age}`;
 // }
 // console.log(sayHello("ali" ,50));
 // function calc(...numbers){
-  // console.log(Array.isArray(numbers));
-  // let result = 0;
-  // for(let i=0;i <numbers.length;i++){
-  //   result+=numbers[i];
-  // }
-  // return`Final result is ${result}`
+// console.log(Array.isArray(numbers));
+// let result = 0;
+// for(let i=0;i <numbers.length;i++){
+//   result+=numbers[i];
+// }
+// return`Final result is ${result}`
 // }
 // console.log(calc(1,4,3,5,5,6,8,43,2,7,56,34,328,789,0));
 // function shoInfo(ur = "Un", ag = "Un", rt = 0, show = "Yes", ...sk) {
@@ -251,7 +251,7 @@
 //   return number1 + number2 ;
 // }
 // console.log(calc(12 , 34 ));
-// let calcoletr = function (number1, number2) { 
+// let calcoletr = function (number1, number2) {
 //   return number1 + number2;
 // };
 // console.log(calcoletr(12, 55));
@@ -269,14 +269,14 @@
 // sayHello("kaled",18);
 // it for boosh
 // function generated(start , end){
-//   for(let i =start ; i <= end ; i++){ 
+//   for(let i =start ; i <= end ; i++){
 //     if(i===15)
 //     return "done" ;
 //     console.log(i);}
-  
+
 //     }
-  
-// generated(10,20); 
+
+// generated(10,20);
 // function sayHello (userName , age ="unknown"){
 //   console.log(`hello ${userName} your age is ${age}`);
 // }
@@ -322,7 +322,7 @@
 //     else if (typeof info[i] === "boolean") {
 //       if(Boolean === "yes")
 //      let sta = "can";
-//     else 
+//     else
 //     }
 // return`hello ${name} your ${age} ${sta} `;
 //   }
@@ -331,6 +331,12 @@
 
 // let namse =  (...nam) => `string ${nam.join("],[")} =>done!`;
 // console.log(namse("[ali","muhmmed","yaser]" ));
-let myNumber =[20,50,10,60];
-let calc =(one ,two ,...nums) =>`${one + two + nums[0]} `;
-console.log(calc(10,myNumber[3],myNumber[2]));   //80
+// let myNumber =[20,50,10,60];
+// let calc =(one ,two ,...nums) =>`${one + two + nums[0]} `;
+// console.log(calc(10,myNumber[3],myNumber[2]));   //80
+let mynumb = [1, 2, 3, 4, 5, 6];
+let newnumb = [];
+for (let i = 0; i < mynumb.length; i++) {
+  newnumb.push(mynumb[i] + mynumb[i]);
+}
+console.log(newnumb);
