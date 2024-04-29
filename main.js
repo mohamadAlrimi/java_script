@@ -361,21 +361,32 @@
 //   })
 //   .join("");
 // console.log(mixedcontenrt);
-let mystring = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,z";
-let solution = mystring
-  .split("")
-  .filter(function (ele) {
-    return isNaN(parseInt(ele));
-  })
-  // .map(function (ele) {
-  //   return ele === "_"  ? (ele = "") : ele;
-  // })
-  .filter(function (ele) {
-    return ele != ",";
-  })
-  .filter(function (ele) {
-    return ele != "_";
-  })
+// let mystring = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,z";
+// let solution = mystring
+//   .split("")
+//   .filter(function (ele) {
+//     return isNaN(parseInt(ele));
+//   })
+// .map(function (ele) {
+//   return ele === "_"  ? (ele = "") : ele;
+// })
+//   .filter(function (ele) {
+//     return ele != ",";
+//   })
+//   .filter(function (ele) {
+//     return ele != "_";
+//   })
 
-  .join("");
-console.log(solution);
+//   .join("");
+// console.log(solution);
+let myElement = document.createElement("div");
+let myheading = document.createElement("h2");
+let myparagraph = document.createElement("p");
+let myheadintext = document.createTextNode("Product titel");
+let myparagraphtext = document.createTextNode("Product description");
+myElement.className = "product";
+myheading.appendChild(myheadintext);
+myparagraph.appendChild(myparagraphtext);
+myElement.appendChild(myheading);
+myElement.appendChild(myparagraph);
+document.body.appendChild(myElement);
