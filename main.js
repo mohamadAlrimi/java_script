@@ -350,14 +350,32 @@
 //   return ele.startsWith("a");
 // });
 // console.log(newfrindes);
-let mix = "A13BS2X";
-let mixedcontenrt = mix
+// let mix = "A13BS2X";
+// let mixedcontenrt = mix
+//   .split("")
+//   .filter(function (ele) {
+//     return !isNaN(parseInt(ele));
+//   })
+//   .map(function (ele) {
+//     return ele * ele;
+//   })
+//   .join("");
+// console.log(mixedcontenrt);
+let mystring = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,z";
+let solution = mystring
   .split("")
   .filter(function (ele) {
-    return !isNaN(parseInt(ele));
+    return isNaN(parseInt(ele));
   })
-  .map(function (ele) {
-    return ele * ele;
+  // .map(function (ele) {
+  //   return ele === "_"  ? (ele = "") : ele;
+  // })
+  .filter(function (ele) {
+    return ele != ",";
   })
+  .filter(function (ele) {
+    return ele != "_";
+  })
+
   .join("");
-console.log(mixedcontenrt);
+console.log(solution);
