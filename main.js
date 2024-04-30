@@ -379,14 +379,18 @@
 
 //   .join("");
 // console.log(solution);
-let myElement = document.createElement("div");
-let myheading = document.createElement("h2");
-let myparagraph = document.createElement("p");
-let myheadintext = document.createTextNode("Product titel");
-let myparagraphtext = document.createTextNode("Product description");
-myElement.className = "product";
-myheading.appendChild(myheadintext);
-myparagraph.appendChild(myparagraphtext);
-myElement.appendChild(myheading);
-myElement.appendChild(myparagraph);
-document.body.appendChild(myElement);
+// let myElement = document.createElement("div");
+// let myheading = document.createElement("h2");
+// let myparagraph = document.createElement("p");
+// let myheadintext = document.createTextNode("Product titel");
+// let myparagraphtext = document.createTextNode("Product description");
+// myElement.className = "product";
+// myheading.appendChild(myheadintext);
+// myparagraph.appendChild(myparagraphtext);
+// myElement.appendChild(myheading);
+// myElement.appendChild(myparagraph);
+// document.body.appendChild(myElement);
+let mebtn = document.getElementById("bt");
+mebtn.onclick = function () {
+  console.log("cliked  ");
+};
