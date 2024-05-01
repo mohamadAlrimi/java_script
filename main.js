@@ -390,7 +390,11 @@
 // myElement.appendChild(myheading);
 // myElement.appendChild(myparagraph);
 // document.body.appendChild(myElement);
-let mebtn = document.getElementById("bt");
-mebtn.onclick = function () {
-  console.log("cliked  ");
+// let mebtn = document.getElementById("bt");
+// mebtn.onclick = function () {
+//   console.log("cliked   ");
+// };
+let one = document.querySelector(".one");
+window.onload = function () {
+  one.focus();
 };
