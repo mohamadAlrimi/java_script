@@ -394,7 +394,20 @@
 // mebtn.onclick = function () {
 //   console.log("cliked   ");
 // };
-let one = document.querySelector(".one");
-window.onload = function () {
-  one.focus();
+// let one = document.querySelector(".one");
+// window.onload = function () {
+//   one.focus();
+// };
+// let element = document.getElementById("text");
+// element.style.cssText = "color :green";
+let mep = document.querySelector("p");
+mep.onclick = function () {
+  let newp = mep.cloneNode(true);
+  newp.className = "clone";
+  document.body.appendChild(newp);
 };
+document.addEventListener("click", function (e) {
+  if (e.target.className === "clone") {
+    console.log("i am cloned");
+  }
+});
