@@ -400,14 +400,17 @@
 // };
 // let element = document.getElementById("text");
 // element.style.cssText = "color :green";
-let mep = document.querySelector("p");
-mep.onclick = function () {
-  let newp = mep.cloneNode(true);
-  newp.className = "clone";
-  document.body.appendChild(newp);
-};
-document.addEventListener("click", function (e) {
-  if (e.target.className === "clone") {
-    console.log("i am cloned");
-  }
-});
+// let mep = document.querySelector("p");
+// mep.onclick = function () {
+//   let newp = mep.cloneNode(true);
+//   newp.className = "clone";
+//   document.body.appendChild(newp);
+// };
+// document.addEventListener("click", function (e) {
+//   if (e.target.className === "clone") {
+//     console.log("i am cloned");
+//   }
+// });
+// alert("test 1");
+let prometm = prompt("Good Day for you ?", "write day with three characters");
+console.log(prometm);
