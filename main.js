@@ -412,5 +412,8 @@
 //   }
 // });
 // alert("test 1");
-let prometm = prompt("Good Day for you ?", "write day with three characters.,,,,.");
-console.log(prometm);
+// let prometm = prompt("Good Day for you ?", "write day with three characters.,,,,.");
+// console.log(prometm);
+setTimeout(function () {
+  window.open("https://googl.com", "_blank", "width=400 ,height=400");
+}, 2000);
