@@ -412,5 +412,5 @@
 //   }
 // });
 // alert("test 1");
-let prometm = prompt("Good Day for you ?", "write day with three characters..");
+let prometm = prompt("Good Day for you ?", "write day with three characters.,,,,.");
 console.log(prometm);
