@@ -416,4 +416,4 @@
 // console.log(prometm);
 setTimeout(function () {
   window.open("https://googl.com", "_blank", "width=400 ,height=400");
-}, 3000);
+}, 4000);
