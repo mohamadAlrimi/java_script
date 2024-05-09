@@ -414,6 +414,19 @@
 // alert("test 1");
 // let prometm = prompt("Good Day for you ?", "write day with three characters.,,,,.");
 // console.log(prometm);
-setTimeout(function () {
-  window.open("https://googl.com", "_blank", "width=400 ,height=400");
-}, 4000);
+// setTimeout(function () {
+//   window.open("https://googl.com", "_blank", "width=400 ,height=400");
+// }, 4000);
+let chosen = 1;
+let myFriends = [
+  { title: "osama", age: 23, available: true, skills: ["html", "css"] },
+  { title: "ali", age: 44, available: false, skills: ["python", "c"] },
+  { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
+];   
+  (     { title: "osama", age= 23, available: true, skills: ["html", "css"] },
+    { title: "ali", age: 44, available: false, skills: ["python", "c"] },
+    { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
+    =myFriends        ) ;
+
+console.log(a.age);
+console.log();
