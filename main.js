@@ -429,4 +429,4 @@ let myFriends = [
     =myFriends        ) ;
 
 console.log(a.age);
-console.log();
+
