@@ -417,7 +417,7 @@
 // setTimeout(function () {
 //   window.open("https://googl.com", "_blank", "width=400 ,height=400");
 // }, 4000);
-let chosen = 1;
+let chosen = 22;
 let myFriends = [
   { title: "osama", age: 23, available: true, skills: ["html", "css"] },
   { title: "ali", age: 44, available: false, skills: ["python", "c"] },
