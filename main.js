@@ -424,7 +424,7 @@ let myFriends = [
   { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
 ];   
   (     { title: "osama", age= 23, available: true, skills: ["html", "css"] },
-    { title: "ali", age: 44, available: false, skills: ["python", "c"] },
+    { title: "ali", age: 44, available: false, skills: ["python", "c++"] },
     { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
     =myFriends        ) ;
 
