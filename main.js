@@ -417,16 +417,19 @@
 // setTimeout(function () {
 //   window.open("https://googl.com", "_blank", "width=400 ,height=400");
 // }, 4000);
-let chosen = 22;
-let myFriends = [
-  { title: "osama", age: 23, available: true, skills: ["html", "css"] },
-  { title: "ali", age: 44, available: false, skills: ["python", "c"] },
-  { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
-];   
-  (     { title: "osama", age= 23, available: true, skills: ["html", "css"] },
-    { title: "ali", age: 44, available: false, skills: ["python", "c++"] },
-    { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
-    =myFriends        ) ;
+// let chosen = 22;
+// let myFriends = [
+//   { title: "osama", age: 23, available: true, skills: ["html", "css"] },
+//   { title: "ali", age: 44, available: false, skills: ["python", "c"] },
+//   { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
+// ];   
+//   (     { title: "osama", age= 23, available: true, skills: ["html", "css"] },
+//     { title: "ali", age: 44, available: false, skills: ["python", "c++"] },
+//     { title: "muhammed", age: 24, available: true, skills: ["php", "fix"] },
+//     =myFriends        ) ;
 
-console.log(a.age);
+// console.log(a.age);
+let mystring = "I Love Elrimi School Web ";
+let regs =/Elrimi/;
+console.log(mystring.match(regs));
 
