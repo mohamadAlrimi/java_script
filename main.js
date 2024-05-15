@@ -429,7 +429,7 @@
 //     =myFriends        ) ;
 
 // console.log(a.age);
-let mystring = "I Love Elrimi School Web ";
+// let mystring = "I Love Elrimi School Web ";
 let regs =/Elrimi/;
 console.log(mystring.match(regs));
 
