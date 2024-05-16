@@ -430,6 +430,15 @@
 
 // console.log(a.age);
 // let mystring = "I Love Elrimi School Web ";
-let regs =/Elrimi/;
-console.log(mystring.match(regs));
+// let regs =/Elrimi/;
+// console.log(mystring.match(regs));
+function User (id , username, salary){
+    this.i = id;
+    this.u=username;
+    this.s=salary;
+};
+let userOne = new User(12,"muhammed",4000);
+console.log(userOne.i);
+console.log(userOne.s );
+console.log(userOne.u);
 
