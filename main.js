@@ -432,13 +432,18 @@
 // let mystring = "I Love Elrimi School Web ";
 // let regs =/Elrimi/;
 // console.log(mystring.match(regs));
-function User (id , username, salary){
-    this.i = id;
-    this.u=username;
-    this.s=salary;
-};
-let userOne = new User(12,"muhammed",4000);
-console.log(userOne.i);
-console.log(userOne.s );
-console.log(userOne.u);
+// function User (id , username, salary){
+//     this.i = id;
+//     this.u=username;
+//     this.s=salary;
+// };
+// let userOne = new User(12,"muhammed",4000);
+// console.log(userOne.i);
+// console.log(userOne.s );
+// console.log(userOne.u);
+let dateNow = new Date();
+let birthday = new Date("Oct 29,00");
+let datediff = dateNow  - birthday;
+console.log(datediff);
+console.log(datediff / 1000 / 60 / 60 / 24 /365 );
 
