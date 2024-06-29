@@ -446,4 +446,5 @@ let birthday = new Date("Oct 29,00");
 let datediff = dateNow  - birthday;
 console.log(datediff);
 console.log(datediff / 1000 / 60 / 60 / 24 /365 );
+console.log(dateNow.getFullYear);
 
